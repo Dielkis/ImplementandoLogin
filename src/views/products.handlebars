@@ -1,0 +1,45 @@
+<main class="container">
+
+  <div class="row row-cols-2">
+    <div>
+      <p>Cart1: 650f08bc86666cd3892abeb3</p>
+      <p>Cart2: 650f19570fb27b984a387a16</p>
+      <p>Cart3: 650f197e0fb27b984a387a1a</p>
+      <p>Algunos cart para probar por que no explican bien a cual agregar en las
+        consignas</p>
+    </div>
+    <div class="flex flex-column">
+      <label for="carts">Ingresar un cart para agregar productos</label>
+      <input class="w-100" type="text" id="carts" name="carts" />
+    </div>
+  </div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Code</th>
+        <th scope="col">Title</th>
+        <th scope="col">Description</th>
+        <th scope="col">Price</th>
+        <th scope="col">Status</th>
+        <th scope="col">Stock</th>
+        <th scope="col">Category</th>
+        <th scope="col">Options</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+  <div>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-end">
+        <li id="prev" class="page-item">
+          <a id="prevLink" class="page-link">Previous</a>
+        </li>
+        <li id="next" class="page-item">
+          <a id="nextLink" class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</main>
+<script src="/js/products.js"></script>
